@@ -25,6 +25,11 @@ echo "build-essential 설치 중..."
 sudo apt install build-essential -y
 check_command "build-essential 설치"
 
+# Git 설치
+echo "Git 설치 중..."
+sudo apt install git -y
+check_command "Git 설치"
+
 # SSL 개발 라이브러리 설치
 echo "libssl-dev 및 pkg-config 설치 중..."
 sudo apt install libssl-dev pkg-config -y
